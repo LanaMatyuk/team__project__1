@@ -309,6 +309,7 @@ header {
     /* Задаём имя счетчика */
     display: flex;
     justify-content: space-between;
+    padding: 0;
 }
 
 .main-focus__list li::before {
