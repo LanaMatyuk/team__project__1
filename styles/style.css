@@ -150,11 +150,62 @@ header {
 /* Header styles end */
 
 /* Hero styles start */
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.hero__title-first {
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    color: #BDBDBD;
+    margin: 0px;
+}
+
+.hero__title-second {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    color: #333333;
+    margin: 0px;
+}
+
+.hero__image {
+    position: relative;
+}
+
+.hero__link {
+    width: 221.81px;
+    height: 71px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    transform: translateY(-100%);
+    background-color: white;
 
 
+}
 
+.hero__link-view-project {
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #333333;
+    text-decoration: none;
+    background: url(../assets/images/icon-hero-link.svg) no-repeat 90% center;
+    transition: .6s all;
+    padding: 30px 42px 30px 20px;
+}
 
-
-
+.hero__link-view-project:hover,
+.hero__link-view-project:focus {
+    background: url(../assets/images/icon-hero-link.svg) no-repeat right center;
+    opacity: .65;
+}
 
 /* Hero styles end */
