@@ -272,3 +272,10 @@ header {
     content: url(../assets/images/arrow-right.svg);
     margin-left: 16px;
 }
+
+.about__link:hover,
+.hero__link-view-project:focus {
+    opacity: .65;
+}
+
+/* About styles end */
