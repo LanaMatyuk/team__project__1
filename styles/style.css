@@ -59,7 +59,7 @@
 }
 
 body {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -158,3 +158,75 @@ header {
 
 
 /* Hero styles end */
+
+/* About styles start */
+
+.about__wrapper {
+    margin-top: 120px;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FBFBFB;
+    height: 435px;
+}
+
+.about__images-wrapper {
+    width: 570px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-left: 100px;
+}
+
+.about__images-wrapper img:nth-child(1) {
+    margin-top: 30px;
+}
+
+.about__images-wrapper img:nth-child(2) {
+    position: relative;
+    top: 60px;
+    left: 30px;
+}
+
+.about__content-wrapper {
+    width: 400px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about__title {
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    color: #BDBDBD;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.about__text {
+    line-height: 25px;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.about__link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #333333;
+    padding: 30px 68px 29px 35px;
+    background-color: #ffffff;
+    align-self: flex-start;
+    margin-top: 50px;
+}
+
+.about__link::after {
+    content: url(../assets/images/arrow-right.svg);
+    margin-left: 16px;
+}
