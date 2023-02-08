@@ -177,7 +177,7 @@ header {
 }
 
 .hero__link {
-    width: 221.81px;
+    width: 222px;
     height: 71px;
     display: flex;
     align-items: center;
@@ -197,7 +197,7 @@ header {
     text-decoration: none;
     background: url(../assets/images/icon-hero-link.svg) no-repeat 90% center;
     transition: .6s all;
-    padding: 30px 42px 30px 20px;
+    padding: 30px 42px 30px 22px;
 }
 
 .hero__link-view-project:hover,
