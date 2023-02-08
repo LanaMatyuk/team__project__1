@@ -218,26 +218,32 @@ header {
 .about {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     background-color: #FBFBFB;
     height: 435px;
 }
 
 .about__images-wrapper {
     width: 570px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    margin-left: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "image1 image2"
+    "image3 image2";
+    gap: 30px;
 }
 
 .about__images-wrapper img:nth-child(1) {
     margin-top: 30px;
+    grid-area: image1;
 }
 
 .about__images-wrapper img:nth-child(2) {
-    position: relative;
-    top: 60px;
-    left: 30px;
+    margin-top: 60px;
+    grid-area: image2;
+}
+
+.about__images-wrapper img:nth-child(3) {
+    grid-area: image3;
 }
 
 .about__content-wrapper {
@@ -270,11 +276,21 @@ header {
     background-color: #ffffff;
     align-self: flex-start;
     margin-top: 50px;
+    background-color: #ffffff;
+    margin-bottom: 30px;
 }
 
-.about__link::after {
-    content: url(../assets/images/arrow-right.svg);
+.about__content-wrapper img {
     margin-left: 16px;
+}
+
+.about__link:hover,
+.about__link:focus {
+    opacity: .65;
+}
+
+.about__link img:hover {
+    transition: .6s all;
 }
 
 /* About styles end */
