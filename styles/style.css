@@ -71,19 +71,26 @@ img {
     max-width: 100%;
 }
 
-.wrapper {
+.wrapper-full {
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 15px;
 
 }
 
+.wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+
 /* Header styles start */
 
 header {
-    position: fixed;
-    top: 0;
     width: 100%;
+    top: 0;
 }
 
 .header__container {
@@ -140,6 +147,14 @@ header {
     left: -15px;
 }
 
-
-
 /* Header styles end */
+
+/* Hero styles start */
+
+
+
+
+
+
+
+/* Hero styles end */
