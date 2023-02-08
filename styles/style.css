@@ -85,6 +85,13 @@ img {
 
 }
 
+.grey__title {
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    color: #BDBDBD;
+}
+
 
 /* Header styles start */
 
@@ -204,8 +211,9 @@ header {
 /* About styles start */
 
 .about__wrapper {
-    margin-top: 120px;
+    margin-bottom: 150px;
 }
+
 
 .about {
     display: flex;
@@ -240,10 +248,6 @@ header {
 }
 
 .about__title {
-    font-weight: 300;
-    font-size: 64px;
-    line-height: 64px;
-    color: #BDBDBD;
     margin: 0;
     margin-top: 30px;
 }
@@ -272,3 +276,50 @@ header {
     content: url(../assets/images/arrow-right.svg);
     margin-left: 16px;
 }
+
+/* About styles end */
+
+/* Main-focus styles start */
+
+.main-focus__wrapper {
+    margin-bottom: 120px;
+}
+
+.main-focus__list li {
+    display: flex;
+    font-size: 22px;
+    line-height: 36px;
+    color: #333333;
+    align-items: center;
+    gap: 30px;
+}
+
+.main-focus__list li:first-child {
+    width: 413px;
+}
+
+.main-focus__list li:nth-child(2) {
+    width: 570px;
+}
+
+.main-focus__list {
+    list-style-type: none;
+    /* Убираем исходные маркеры */
+    counter-reset: my-counter;
+    /* Задаём имя счетчика */
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-focus__list li::before {
+    content: counter(my-counter); /* Выводим число */
+    counter-increment: my-counter; /* Увеличиваем значение счётчика */
+    font-style: normal;
+    font-weight: 900;
+    font-size: 200px;
+    line-height: 234px;
+    color: #F2F2F2;
+    display: block;
+}
+
+/* Main-focus styles end */
