@@ -328,6 +328,7 @@ header {
     counter-reset: my-counter;
     /* Задаём имя счетчика */
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 0;
 }
@@ -341,6 +342,12 @@ header {
     line-height: 234px;
     color: #F2F2F2;
     display: block;
+}
+
+@media (max-width: 1046px) {
+    .about {
+        height: 100%;
+    }
 }
 
 /* Main-focus styles end */
