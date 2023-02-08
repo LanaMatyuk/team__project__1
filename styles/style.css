@@ -285,6 +285,10 @@ header {
     margin-bottom: 120px;
 }
 
+.main-focus__title {
+    margin-bottom: 60px;
+}
+
 .main-focus__list li {
     display: flex;
     font-size: 22px;
