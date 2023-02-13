@@ -395,13 +395,13 @@ header {
 .our-projects__container__main__title {
     font-style: normal;
     font-weight: 700;
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 64px;
+    line-height: 64px;
     color: #FFFFFF;
-    width: 40px;
+    width: 64px;
     position: absolute;
     top: 120px;
-    left: 120px;
+    left: 60px;
     transform: translateY(-100%);
 }
 
@@ -411,7 +411,7 @@ header {
     display: flex;
     align-items: center;
     position: absolute;
-    left: 120px;
+    left: 60px;
     transform: translateY(-100%);
    
 }
