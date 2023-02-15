@@ -401,7 +401,7 @@ header {
     width: 64px;
     position: absolute;
     top: 120px;
-    left: 60px;
+    left: 79px;
     transform: translateY(-100%);
 }
 
@@ -412,8 +412,8 @@ header {
     align-items: center;
     position: absolute;
     left: 60px;
+    padding-bottom: 20px;
     transform: translateY(-100%);
-   
 }
 
 .our-projects__container__main__link-view-more {
@@ -471,7 +471,7 @@ header {
 /* Contact-us styles start */
 
 .contact-us {
-margin-top: 100px;
+margin-top: 50px;
 }
 
 .contact-us__title {
@@ -486,7 +486,7 @@ input {
    border: none;
    width: 35%;
    height: 50px;
-   color: #BDBDBD;
+   color: #8D8D8D;
    padding-left: 15px;
 }
 
