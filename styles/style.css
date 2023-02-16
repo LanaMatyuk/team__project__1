@@ -103,6 +103,11 @@ img {
     color: #BDBDBD;
 }
 
+.black-text {
+    color: #333333;
+    font-weight: 700;
+}
+
 
 /* Header styles start */
 
@@ -645,3 +650,25 @@ margin-top: 15%;
 }
 
 /* Footer styles end */
+
+/* Project-1 styles start */
+
+.main-projects__title {
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 239px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.main-projects__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-projects__item {
+    width: 1170px;
+    display: flex;
+}
