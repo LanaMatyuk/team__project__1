@@ -512,6 +512,10 @@ input {
     padding-left: 15px;
 }
 
+.textarea {
+    padding-bottom: 120px;
+}
+
 .contact-us__button {
     position: relative;
     width: 221.81px;
@@ -524,9 +528,6 @@ input {
     background-color: #333333;
 }
 
-.contact-us__form-item-5 {
-    height: 50px;
-}
 
 .contact-us__button-send-email {
     font-size: 12px;
