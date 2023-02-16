@@ -381,9 +381,9 @@ header {
 
 /* Our-projects styles start */
 
-.our-projects {
-    margin-top: 120px;
+.our-projects__wrapper {
     width: 100%;
+    margin-bottom: 120px;
 }
 
 
@@ -400,8 +400,8 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
-    object-fit: cover;
-    height: 550px;
+    gap: 25px;
+    
 }
 
 .our-projects__container__main {
@@ -453,7 +453,6 @@ header {
 
 
 .our-projects__container__main__image {
-   
     filter: brightness(50%);
 }
 
@@ -468,7 +467,7 @@ header {
     transform: translateY(-100%);
     background-color: #333333;
     margin-top: 100px;
-    margin-left: 81%;
+    margin-left: auto;
 }
 
 .our-projects__link-all-projects {
@@ -494,7 +493,7 @@ header {
 /* Contact-us styles start */
 
 .contact-us {
-    margin-top: 50px;
+    margin-bottom: -50px;
 }
 
 .contact-us__title {
