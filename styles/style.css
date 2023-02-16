@@ -376,7 +376,7 @@ header {
     font-size: 64px;
     line-height: 64px;
     color: #BDBDBD;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .our-projects__container {
@@ -403,6 +403,7 @@ header {
     top: 120px;
     left: 79px;
     transform: translateY(-100%);
+    z-index: 1;
 }
 
 .our-projects__container__main__link {
@@ -432,6 +433,12 @@ header {
 .our-projects__container__main__link-view-more:focus {
     background: url(../assets/images/arrow-2-right-long.svg) no-repeat right center;
     opacity: .65;
+}
+
+
+.our-projects__container__main__image {
+   
+    filter: brightness(50%);
 }
 
 
@@ -471,7 +478,7 @@ header {
 /* Contact-us styles start */
 
 .contact-us {
-margin-top: 50px;
+    margin-top: 50px;
 }
 
 .contact-us__title {
@@ -490,7 +497,7 @@ input {
    padding-left: 15px;
 }
 
-.contact-us__link {
+.contact-us__button {
     position: relative;
     width: 221.81px;
     height: 70px;
@@ -506,20 +513,20 @@ input {
     height: 50px;
 }
 
-.contact-us__link-send-email {
+.contact-us__button-send-email {
     font-size: 12px;
     line-height: 12px;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.3em;
     text-transform: uppercase;
     color: #ffffff;
     text-decoration: none;
     background: url(../assets/images/arrow-2-right-long.svg) no-repeat 90% center;
     transition: .6s all;
-    padding: 30px 42px 30px 20px;
+    padding: 30px 72px 30px 20px;
 }
 
-.contact-us__link-send-email:hover,
-.contact-us__link-send-email:focus {
+.contact-us__button-send-email:hover,
+.contact-us__button-send-email:focus {
     background: url(../assets/images/arrow-2-right-long.svg) no-repeat right center;
     opacity: .65;
 }

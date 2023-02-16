@@ -144,22 +144,22 @@
        <h2 class="contact-us__title">Contact Us</h2>
         <form class="contact-us__form" action="script.php" method="post" >
               <p class="contact-us__form-item-1">
-              <input type="text" name="name" id="name" placeholder="Name" value=""/> 
+              <input type="text" name="name" id="name" placeholder="Name"/> 
               </p>
               <p class="contact-us__form-item-2">
-              <input type="tel" required name="number" id="number" placeholder="Phone number*" value=""/> 
+              <input type="tel" required name="number" id="number" placeholder="Phone number*" required/> 
               </p>
               <p class="contact-us__form-item-3">
-              <input type="email" class="form-control" name="e-mail" id="e-mail" placeholder="E-mail*" required value="" required/>
+              <input type="email" class="form-control" name="e-mail" id="e-mail" placeholder="E-mail*" required/>
               </p>
               <p class="contact-us__form-item-4">
-              <input type="text" name="interest" id="interest" placeholder="Interested in" value=""/>
+              <input type="text" name="interest" id="interest" placeholder="Interested in"/>
               </p>
               <p class="contact-us__form-item-5">
-              <input type="text" name="message" id="message" placeholder="Message*" value=""/>
+              <input type="text" name="message" id="message" placeholder="Message*" required/>
               </p>
-              <div class="contact-us__link">
-              <a href="#!" class="contact-us__link-send-email">Send email</a>
+              <div class="contact-us__button">
+                <input class="contact-us__button-send-email" type="button" value="Send email">
               </div>
         </form>
            <div class="contact-us__image">
