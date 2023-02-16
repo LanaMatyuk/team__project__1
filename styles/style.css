@@ -679,7 +679,7 @@ input {
     margin: 0;
     padding: 0;
     display: block;
-    width: 239px;
+    width: 270px;
     margin-top: 60px;
     margin-bottom: 60px;
 }
@@ -753,4 +753,18 @@ input {
     gap: 23px;
 }
 
-.pagination__item {}
+/* Project-1 styles ends */
+
+/* Project-2 styles starts */
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 169px;
+}
+
+.flex-container__text {
+    max-width: 721px;
+    line-height: 25px;
+}
