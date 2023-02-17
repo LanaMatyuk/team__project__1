@@ -171,7 +171,7 @@ header {
     border-bottom: solid 1.5px #333333;
 }
 
-/*hamburger-menu start*/
+/*burger-menu start*/
 
 .mobile-menu__btn {
     display: none;
@@ -181,7 +181,7 @@ header {
     display: none;
 }
 
-/*hamburger-menu end*/
+/*burger-menu end*/
 
 
 /* Header styles end */
@@ -735,7 +735,7 @@ input {
 
 @media screen and (max-width:808px) {
 
-    /* hamburger menu start*/
+    /* burger-menu start*/
     .mobile-menu {
         position: fixed;
         display: flex;
@@ -864,7 +864,7 @@ input {
     }
 
 
-    /* hamburger menu end*/
+    /* burger-menu end*/
 
 
     /* Our Projects */
