@@ -1,0 +1,297 @@
+/* roboto-300italic - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 300;
+    src: url('../assets/fonts/roboto-v30-latin-300italic.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+ */
+        url('../assets/fonts/roboto-v30-latin-300italic.woff') format('woff');
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* roboto-regular - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../assets/fonts/roboto-v30-latin-regular.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+ */
+        url('../assets/fonts/roboto-v30-latin-regular.woff') format('woff');
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* roboto-500 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../assets/fonts/roboto-v30-latin-500.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+ */
+        url('../assets/fonts/roboto-v30-latin-500.woff') format('woff');
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* roboto-700 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../assets/fonts/roboto-v30-latin-700.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+ */
+        url('../assets/fonts/roboto-v30-latin-700.woff') format('woff');
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+html {
+    height: 100%;
+    /* Делаем стики-футер */
+}
+
+*,
+:after,
+:before {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #333333;
+    /* Делаем стики-футер */
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper-full {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+.wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+
+/* Header styles start */
+
+header {
+    width: 100%;
+    top: 0;
+}
+
+.header__container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.header__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header__list-item {
+    list-style: none;
+    margin-right: 60px;
+}
+
+.header__list-item:last-child {
+    margin-right: 120px;
+}
+
+.header__nav-link {
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #333333;
+    text-decoration: none;
+}
+
+.header__nav-link:hover,
+.header__nav-link:active,
+.header__nav-link:focus {
+    opacity: 0.40;
+}
+
+.header__nav-link-select {
+    padding: 4px 10px;
+    border-top: solid 1.5px #333333;
+    border-bottom: solid 1.5px #333333;
+}
+
+
+/* Header styles end */
+
+/* Certifications styles start */
+
+.company-certifications {
+    height: 100vh;
+}
+
+.certifications__title {
+    margin-top: 63px;
+}
+
+.certifications__title-first {
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    color: #BDBDBD;
+    margin: 0px;
+}
+
+.certifications__title-second {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    color: #333333;
+    margin: 0px;
+}
+
+
+/* Certifications styles end */
+
+
+/* Footer styles start */
+
+.footer {
+    background-color: #2C2C2C;
+    color: #F2F2F2;
+    font-size: 14px;
+    display: grid;
+    grid-template-columns: 25% 20% 20% 35%;
+    grid-template-rows: 80% 20%;
+}
+
+.footer__logo {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    margin: 20% 20% 50% 20%;
+}
+
+.info__subtitle,
+.social-media__subtitle,
+.contacts__subtitle {
+    font-weight: 700;
+}
+
+/* Info Block */
+.footer__info {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    margin-top: 15%;
+}
+
+.info__list {
+    padding-left: 0;
+    padding-top: 5%;
+}
+
+.info__list-item {
+    list-style-type: none;
+    margin-bottom: 6%;
+}
+
+.info__list-item__link {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+}
+
+/* Contacts Block */
+
+.footer__contacts {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    margin-top: 15%;
+}
+
+.contacts__address {
+    display: flex;
+    padding-top: 5%;
+}
+
+.contacts__address__text,
+.contacts__phone__text,
+.contacts__email__text {
+    margin: 0% 40% 15% 5%;
+}
+
+.contacts__address__icon {
+    max-height: 16px;
+    max-width: 11px;
+}
+
+.contacts__phone {
+    display: flex;
+}
+
+.contacts__phone__icon {
+    max-height: 17px;
+    max-width: 16px;
+}
+
+.contacts__email {
+    display: flex;
+}
+
+.contacts__email__icon {
+    max-height: 11px;
+    max-width: 16px;
+}
+
+/* Social-media Block */
+
+.footer__social-media {
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;
+    margin-top: 8.5%;
+    margin-right: 60%;
+}
+
+.social-media__logos {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Address Block */
+
+.footer__address {
+    grid-column: 1 / 5;
+    grid-row: 2 / 3;
+    border-top: solid 1.5px #333333;
+}
+
+.address__text {
+    color: rgba(200, 200, 200, 0.5);
+    text-align: center;
+}
+
+/* Footer styles end */
