@@ -786,6 +786,12 @@ input {
         display: block;
         padding: 20px 15px;
     }
+
+    /* Our Projects */
+
+    .our-projects__link {
+        margin-left: 0;
+    }
 }
 
 /* Main-Media end*/
