@@ -398,8 +398,6 @@ header {
 .our-projects__container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: space-between;
     gap: 25px;
     
 }
@@ -493,30 +491,37 @@ header {
 /* Contact-us styles start */
 
 .contact-us {
-    margin-bottom: -50px;
+    margin-bottom: 150px;
 }
 
 .contact-us__title {
     font-weight: 300;
     font-size: 64px;
-    line-height: 64px;
+    line-height: 30px;
     color: #BDBDBD;
+}
+
+.contact-us__content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
 }
 
 input {
     background-color: #F3F3F3;
     border: none;
-    width: 35%;
-    height: 50px;
+    width: 380px;
+    height: 45px;
     color: #8D8D8D;
-    padding-left: 15px;
+    padding-left: 15px;  
 }
+
 
 .textarea {
-    padding-bottom: 120px;
+    padding-bottom: 90px;
 }
 
-.contact-us__button {
+.contact-us__content__form-button {
     position: relative;
     width: 221.81px;
     height: 70px;
@@ -529,7 +534,7 @@ input {
 }
 
 
-.contact-us__button-send-email {
+.contact-us__content__form-button-send-email {
     font-size: 12px;
     line-height: 12px;
     letter-spacing: 0.3em;
@@ -541,16 +546,14 @@ input {
     padding: 30px 72px 30px 20px;
 }
 
-.contact-us__button-send-email:hover,
-.contact-us__button-send-email:focus {
+.contact-us__content__form-button-send-email:hover,
+.contact-us__content__form-button-send-email:focus {
     background: url(../assets/images/arrow-2-right-long.svg) no-repeat right center;
     opacity: .65;
 }
 
-.contact-us__image-send-email {
-    position: relative;
-    left: 450px;
-    bottom: 450px;
+.contact-us__content-image {
+   margin-top: 25px;
 }
 
 /* Contact-us styles end */
