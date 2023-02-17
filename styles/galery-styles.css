@@ -155,7 +155,6 @@ header {
     border-bottom: solid 1.5px #333333;
 }
 
-
 /* Header styles end */
 
 
@@ -181,7 +180,6 @@ header {
     margin: 0px;
 }
 
-
 .container {
     display: grid;
     grid-gap: 20px;
@@ -191,7 +189,34 @@ header {
     padding-bottom: 20px;
 }
 
+.pages {
+    display: inline-flex;
+    width: 35%;
+    justify-content: space-between;
+    align-content: start;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 24px;
+    line-height: 24px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
 
+.pages__slash {
+    margin-bottom: 25px;
+}
+
+.pages__number-2 {
+    color: #BDBDBD; 
+}
+
+.pages__button-1 {
+    padding-top: 5px;
+}
+
+.pages__button-2 {
+    padding-top: 5px;
+}
 
 /* Main styles end */
 

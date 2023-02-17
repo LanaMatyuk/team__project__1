@@ -578,13 +578,13 @@ input {
 .contact-us__content__form-button-send-email {
     font-size: 12px;
     line-height: 12px;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.4em;
     text-transform: uppercase;
     color: #ffffff;
     text-decoration: none;
-    background: url(../assets/images/arrow-2-right-long.svg) no-repeat 90% center;
-    transition: .6s all;
-    padding: 30px 72px 30px 20px;
+    background: url(../assets/images/arrow-2-right-long.svg) no-repeat 80% center;
+    transition: .8s all;
+    padding: 30px 55px 30px 20px;
 }
 
 .contact-us__content__form-button-send-email:hover,
