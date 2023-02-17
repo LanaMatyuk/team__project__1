@@ -729,6 +729,37 @@ input {
         justify-content: space-between;
     }
 
+    /* Hero */
+
+    .hero {
+        margin-bottom: 60px;
+    }
+
+    /* About */
+
+    .about__wrapper {
+        margin-bottom: 30px;
+    }
+
+    .about__content-wrapper {
+        margin-left: 0;
+        margin-right: auto;
+    }
+
+    .main-focus__wrapper {
+        margin-bottom: 60px;
+    }
+
+    .main-focus__title {
+        margin: 0;
+    }
+
+    /* Contacts */
+
+    .contact-us {
+        margin-bottom: 60px;
+    }
+
 }
 
 @media screen and (max-width:808px) {
