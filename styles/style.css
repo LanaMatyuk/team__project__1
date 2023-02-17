@@ -759,6 +759,7 @@ input {
         cursor: pointer;
         transition: .5s;
         margin-right: 10px;
+        z-index: 9999;
     }
 
     .mobile-menu__icon {
