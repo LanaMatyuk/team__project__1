@@ -51,8 +51,12 @@
 }
 
 html {
-    height: 100%;
+    min-height: 100vh;
     /* Делаем стики-футер */
+}
+
+main {
+    flex: 1;
 }
 
 *,
@@ -70,10 +74,9 @@ body {
     font-size: 16px;
     line-height: 1.2;
     color: #333333;
-    /* Делаем стики-футер */
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    min-height: 100%;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 img {
