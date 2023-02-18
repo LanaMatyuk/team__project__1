@@ -251,13 +251,12 @@ header {
     margin-bottom: 150px;
 }
 
-
 .about {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     background-color: #FBFBFB;
-    height: 435px;
+    max-height: 435px;
 }
 
 .about__images-wrapper {
@@ -284,7 +283,7 @@ header {
 }
 
 .about__content-wrapper {
-    width: 400px;
+    max-width: 400px;
     margin-left: 30px;
     display: flex;
     flex-direction: column;
@@ -349,14 +348,7 @@ header {
     color: #333333;
     align-items: center;
     gap: 30px;
-}
-
-.main-focus__list li:first-child {
-    width: 413px;
-}
-
-.main-focus__list li:nth-child(2) {
-    width: 570px;
+    max-width: 100%;
 }
 
 .main-focus__list {
@@ -364,9 +356,9 @@ header {
     /* Убираем исходные маркеры */
     counter-reset: my-counter;
     /* Задаём имя счетчика */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 187px;
     padding: 0;
 }
 
@@ -702,6 +694,10 @@ input {
         line-height: 44px;
     }
 
+    .about__images-wrapper {
+        display: none;
+    }
+
 }
 
 @media screen and (max-width:1024px) {
@@ -742,10 +738,6 @@ input {
         margin-bottom: 30px;
     }
 
-    .about__images-wrapper {
-        gap: 10px;
-    }
-
     /* Main-focus */
 
     .main-focus__wrapper {
@@ -754,6 +746,11 @@ input {
 
     .main-focus__title {
         margin: 0;
+    }
+
+    .main-focus__list {
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .main-focus__list li {
@@ -937,12 +934,12 @@ input {
 
     /* burger-menu end*/
 
-
     /* Our Projects */
 
     .our-projects__link {
         margin-left: 0;
     }
+
 }
 
 @media screen and (max-width:620px) {

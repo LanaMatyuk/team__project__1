@@ -125,6 +125,14 @@
 
 }
 
+@media screen and (max-width:808px) {
+    .header__list {
+        flex-direction: column;
+        gap: 30px;
+        padding: 10px;
+        background-color: uppercase;
+    }
+}
 
 /* Project-1 styles ends */
 
