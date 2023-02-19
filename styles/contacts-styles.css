@@ -74,6 +74,10 @@ body {
     flex-direction: column;
 }
 
+.main {
+    flex: 1;
+}
+
 img {
     max-width: 100%;
 }
@@ -429,6 +433,14 @@ margin-top: 15%;
 
     .wrapper__button {
         padding: 3% 7% 3% 7%;
+    }
+
+    .header__list {
+        flex-direction: column;
+    }
+
+    .header__list-item {
+        margin-right: 0;
     }
 
 }
